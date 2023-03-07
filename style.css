@@ -5,6 +5,23 @@ html {
     .text-success
 
 }
-.bg-primary {
+.bg-primary1 {
     background-color: #7EBC12!important;
+}
+.bg-primary3{
+    background-color: #7EBC12!important;
+}
+
+.btn-secondary1{
+    background-color: red;
+}
+.hero-header{
+
+    background: url(../NavWithJQuery/img/bg-round.png),url(../NavWithJQuery/img/bg-round-2.png),url(../NavWithJQuery/img/bg-square.png),url(../NavWithJQuery/img/bg-line.png),url(../NavWithJQuery/img/bg-bottom-hero.png);
+    background-position: 0 40%,right 0 top 0,left 50% top 0,left 50% top 50%,center bottom -1px;
+    background-repeat: no-repeat;
+}
+.menu {
+    position:relative;
+    
 }
