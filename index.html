@@ -17,7 +17,7 @@
 <body>
 
     <div class="container-lg position-relative p-0 contain">
-        <nav class="navbar navbar-expand-lg  bg-primary1 " id="navbar">
+        <nav class="navbar navbar-expand-lg  bg-primary1 scrolled" id="navbar">
           
           <h1 class="m-0 text-white pl-5"><i class="fa fa-server me-3"></i>GreenHost</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -110,17 +110,23 @@
            if (scrollTop > 100 ) {
             $("#navbar").addClass("navbar-scroll");
             $(".contain").removeClass("container-lg");
-            $("#navbar").css("position", "-webkit-sticky");
+            $("#navbar").css("position", "sticky");
             $("#navbar").css("transition"," .5s");
             $("#navbar").css("width"," 100%");
-
+            $("#navbar").css( "background-color" ,"white");
+            $("#navbar").css({"background-color": "white","color": "black", "font-size": "16px" });
+            
            }
            else  {
-              $("#navbar").removeClass("navbar-scroll");
-            $(".contain").addClass("container-lg");
+             $("#navbar").removeClass("navbar-scroll");
+           // $(".contain").addClass("container-lg");
            }
         });
       })
     </script>
 </body>
 </html>
+                                
+                                
+                               
+                          
